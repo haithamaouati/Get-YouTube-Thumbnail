@@ -2,20 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="Get, YouTube, Thumbnail">
+    <meta name="description" content="Get YouTube Thumbnail.">
+    <meta name="author" content="Haitham Aouati">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Thumbnail Getter</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- thumbnail tags -->
+    <meta property="og:image" content="thumbnail.jpg">
+    <meta property="og:image:secure_url" content="thumbnail.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="150">
+    <meta property="og:image:height" content="150">
+    <!-- details tags -->
+    <meta property="og:title" content="Haitham Aouati">
+    <meta property="og:description" content="Get YouTube Thumbnail.">
+    <meta property="og:url" content="https://haithamaouati.github.io/Get-YouTube-Thumbnail/">
 </head>
 <body>
     <div class="container">
         <h1>Get YouTube Thumbnail</h1>
         <p>Enter the YouTube video URL:</p>
-        <input type="text" id="videoUrl" placeholder="Enter YouTube URL">
+        <input type="text" id="videoUrl" placeholder="https://youtube.com/watch?v=QcEUqsBhwF8">
+        <br>
         <button onclick="getThumbnail()">Get Thumbnail</button>
         <div class="result">
             <p>YouTube Thumbnail Image URL:</p>
             <img id="thumbnailImage" src="" alt="Thumbnail">
         </div>
+      <br>
+      <hr>
+      <br>
+      <!-- Author -->
+      <p>
+        Made with &#9749 by 
+      <b>
+        <a href="https://github.com/haithamaouati" target="_blank">Haitham Aouati</a>
+      </b>
+      </p>
     </div>
     <script src="script.js"></script>
 </body>
