@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .container {
@@ -7,6 +7,10 @@ body {
     margin: 0 auto;
     text-align: center;
     padding: 20px;
+}
+
+input[type="text"] {
+  width: 300px;
 }
 
 button {
@@ -26,4 +30,15 @@ img {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
 }
